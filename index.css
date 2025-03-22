@@ -12,6 +12,7 @@ body{
 header{...
 
 }
-.navbar{
-    
+.navbar{ 
+    display: flex;
+
 }
