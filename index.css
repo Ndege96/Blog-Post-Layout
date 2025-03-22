@@ -9,7 +9,9 @@ body{
     background-color: #f7f9fc;
     color: #333;
 }
-header{...
+header{
+    background-color: #292b2c;
+    padding: 1rem 0;
 
 }
 .navbar{ 
