@@ -46,4 +46,7 @@ header{
     text-decoration: underline;
     
 }
-.blog-contain{}
+.blog-contain{
+    display: flex;
+    justify-content: space-between;
+}
