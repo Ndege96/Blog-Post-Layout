@@ -51,4 +51,5 @@ header{
     justify-content: space-between;
     max-width: 1200px;
     margin: 30px auto;
+    padding: 0 20px;
 }
