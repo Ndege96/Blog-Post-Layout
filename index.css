@@ -57,4 +57,5 @@ header{
 .blog-post{
     flex: 1;
     background: #fff;
+    padding: 20px;
 }
