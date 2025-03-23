@@ -38,4 +38,5 @@ header{
 }
 .nav-links li a{
     color: #bbb;
+    text-decoration: none;
 }
