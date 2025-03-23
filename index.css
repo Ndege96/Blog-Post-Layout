@@ -56,4 +56,5 @@ header{
 }
 .blog-post{
     flex: 1;
+    background: #fff;
 }
