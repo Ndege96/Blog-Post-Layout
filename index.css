@@ -64,4 +64,6 @@ header{
 .post-image{
 
 }
-.post-date
+.post-date{
+    font-size: 0.9rem;
+}
