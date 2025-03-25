@@ -82,4 +82,6 @@ figcaption{
     text-align: center;
     color: #555;
 }
-.post-text
+.post-text{
+    font-size: 1.1rem;
+}
