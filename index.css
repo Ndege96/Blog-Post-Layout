@@ -96,7 +96,7 @@ figcaption{
     text-decoration: none;
     border: none;
     cursor: pointer;
-    transition: background 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .sidebar{
     width: 300px;
@@ -104,4 +104,7 @@ figcaption{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.read-more-btn:hover {
+color: red;
 }
