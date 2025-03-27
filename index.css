@@ -126,5 +126,10 @@ color: red;
     text-align: center;
     margin: 40px auto;
 }
+.share-btn {
+    background-color: #007bff;
+    color: white;
+}
+
 
 .comments
