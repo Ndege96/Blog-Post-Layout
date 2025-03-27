@@ -112,6 +112,8 @@ color: red;
     font-size: 1.3rem;
     margin-bottom: 15px;
 }
-.sidebar ul
+.sidebar ul{
+    list-style: none;
+}
 
 .comments
