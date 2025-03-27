@@ -115,6 +115,9 @@ color: red;
 .sidebar ul{
     list-style: none;
 }
-.sidebar ul li 
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
 
 .comments
