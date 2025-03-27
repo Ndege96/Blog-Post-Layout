@@ -108,6 +108,9 @@ figcaption{
 .read-more-btn:hover {
 color: red;
 }
-.sidebar h3
+.sidebar h3{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
 
 .comments
