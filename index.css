@@ -122,5 +122,9 @@ color: red;
 .sidebar ul li a:hover{
     text-decoration: underline;
 }
+.social-share {
+    text-align: center;
+    margin: 40px auto;
+}
 
 .comments
