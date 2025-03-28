@@ -136,12 +136,15 @@ color: red;
     cursor: pointer;
     font-size: 1rem;
     transition: background 0.3s;
-    
+}
     .share-btn:hover{
         background-color: #0056b3;
     }
-    }
-}
+.author-box {}
+    
+        
+    
+    
 
 
 .comments
