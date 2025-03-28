@@ -140,7 +140,9 @@ color: red;
     .share-btn:hover{
         background-color: #0056b3;
     }
-.author-box {}
+.author-box {
+    display: flex;
+}
     
         
     
