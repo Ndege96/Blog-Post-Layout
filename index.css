@@ -164,7 +164,8 @@ color: red;
 }
          
 .back-to-top-btn{
-    
+    position: fixed;
+    bottom: 20px
 }
 
 
