@@ -138,7 +138,7 @@ color: red;
     transition: background 0.3s;
 }
     .share-btn:hover{
-        background-color: #0056b3;
+       background-color: chocolate;
     }
 .author-box {
     display: flex;
@@ -150,7 +150,7 @@ color: red;
 .author-image{
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 20%;
     border: 2px solid #007bff;
 }
 .author-name{
@@ -163,8 +163,9 @@ color: red;
     color: #666;
 }
          
+.back-to-top-btn{
     
-    
+}
 
 
 .comments
