@@ -188,4 +188,9 @@ color: red;
     max-width: 800px;
     margin: 40px auto;
 }
-.comment-form textarea
+.comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
