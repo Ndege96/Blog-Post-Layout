@@ -185,6 +185,7 @@ color: red;
     transform: scale(1.1);
 }
 .comments{
-    
+    max-width: 800px;
+    margin: 40px auto;
 }
 
