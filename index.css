@@ -180,6 +180,8 @@ color: red;
     align-items: center;
     transition: all 0.3s ease;
 }
+.back-to-top-btn:hover {
+    
+}
 
 
-.comments
