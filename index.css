@@ -204,5 +204,8 @@ color: red;
 }
 
 .comment {
-    
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
