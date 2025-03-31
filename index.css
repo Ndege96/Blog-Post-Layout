@@ -208,4 +208,5 @@ color: red;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
