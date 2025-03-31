@@ -212,5 +212,6 @@ color: red;
 }
 
 .comment-author{
-    
+    font-weight: bold;
+    margin-bottom: 5px;
 }
