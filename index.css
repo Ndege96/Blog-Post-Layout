@@ -221,6 +221,10 @@ color: red;
 /* Responsive Design */
 @media (max-width: 768px) {
     .blog-container {
-    flex-direction: column;
-        gap: 0;
+        flex-direction: column;
+            gap: 0;
     }
+}
+.sidebar{
+    
+}
