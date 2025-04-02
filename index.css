@@ -1,20 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
     background-color: #f7f9fc;
     color: #333;
 }
-header{
+
+header {
     background-color: #292b2c;
     padding: 1rem 0;
 
 }
-.navbar{ 
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,30 +26,36 @@ header{
     padding: 0 20px;
 
 }
-.navbar .logo{
+
+.navbar .logo {
     color: #fff;
     font-size: 1.8rem;
     text-decoration: none;
     font-weight: bold;
 }
+
 .nav-links {
     display: flex;
     list-style: none;
 }
+
 .nav-links li {
     margin-left: 20px;
 }
-.nav-links li a{
+
+.nav-links li a {
     color: #bbb;
     text-decoration: none;
     font-size: 1.1rem;
 }
-.nav-links li a:hover{
+
+.nav-links li a:hover {
     color: #fff;
     text-decoration: underline;
-    
+
 }
-.blog-contain{
+
+.blog-contain {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -54,39 +63,44 @@ header{
     padding: 0 20px;
     gap: 20px;
 }
-.blog-post{
+
+.blog-post {
     flex: 1;
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-.post-title {
 
-}
-.post-date{
+.post-title {}
+
+.post-date {
     font-size: 0.9rem;
     color: #777;
     margin-bottom: 20px;
 }
-.post-image{
+
+.post-image {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
-    
+
 
 }
-figcaption{
+
+figcaption {
     font-style: italic;
     font-size: 0.9rem;
     text-align: center;
     color: #555;
 }
-.post-text{
+
+.post-text {
     font-size: 1.1rem;
     margin: 20px 0;
 }
-.read-more-btn{
+
+.read-more-btn {
     display: inline-block;
     background-color: #007bff;
     color: white;
@@ -98,34 +112,42 @@ figcaption{
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
-.sidebar{
+
+.sidebar {
     width: 300px;
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 .read-more-btn:hover {
-color: red;
+    color: red;
 }
-.sidebar h3{
+
+.sidebar h3 {
     font-size: 1.3rem;
     margin-bottom: 15px;
 }
-.sidebar ul{
+
+.sidebar ul {
     list-style: none;
 }
+
 .sidebar ul li a {
     color: #007bff;
     text-decoration: none;
 }
-.sidebar ul li a:hover{
+
+.sidebar ul li a:hover {
     text-decoration: underline;
 }
+
 .social-share {
     text-align: center;
     margin: 40px auto;
 }
+
 .share-btn {
     background-color: #007bff;
     color: white;
@@ -137,9 +159,11 @@ color: red;
     font-size: 1rem;
     transition: background 0.3s;
 }
-    .share-btn:hover{
-       background-color: chocolate;
-    }
+
+.share-btn:hover {
+    background-color: chocolate;
+}
+
 .author-box {
     display: flex;
     align-items: center;
@@ -147,23 +171,25 @@ color: red;
     max-width: 600px;
     margin: 40px auto;
 }
-.author-image{
+
+.author-image {
     width: 60px;
     height: 60px;
     border-radius: 20%;
     border: 2px solid #007bff;
 }
-.author-name{
+
+.author-name {
     font-size: 1.2rem;
     font-weight: bold;
 }
-        
+
 .author-bio {
     font-size: 0.9rem;
     color: #666;
 }
-         
-.back-to-top-btn{
+
+.back-to-top-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -180,15 +206,18 @@ color: red;
     align-items: center;
     transition: all 0.3s ease;
 }
+
 .back-to-top-btn:hover {
     background-color: #0056b3;
     transform: scale(1.1);
 }
-.comments{
+
+.comments {
     max-width: 800px;
     margin: 40px auto;
 }
-.comment-form textarea{
+
+.comment-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -196,10 +225,12 @@ color: red;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-.comment-form button{
+
+.comment-form button {
     background-color: #0056b3;
 }
-.comment-lis{
+
+.comment-lis {
     margin-top: 20px;
 }
 
@@ -211,22 +242,28 @@ color: red;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-.comment-author{
+.comment-author {
     font-weight: bold;
     margin-bottom: 5px;
 }
-.comment-text{
 
-}
+.comment-text {}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .blog-container {
         flex-direction: column;
-            gap: 0;
+        gap: 0;
+
+
     }
-}
-.sidebar{
-    width: 100%;
-    margin-top: 20px;
-    order: -1;
+
+    .sidebar {
+        width: 100%;
+        margin-top: 20px;
+        order: -1;
+    }
+    .blog-post {
+        width: 100%;
+    }
 }
