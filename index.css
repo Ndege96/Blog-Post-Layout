@@ -219,5 +219,8 @@ color: red;
 
 }
 /* Responsive Design */
-@media (max-width: 768px) 
-    .blog-container 
+@media (max-width: 768px) {
+    .blog-container {
+    flex-direction: column;
+        gap: 0;
+    }
