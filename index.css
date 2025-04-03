@@ -282,6 +282,6 @@ figcaption {
     }
     .read-more-btn,
     .share-btn {
-        
+        width: 100%;
     }
 }
