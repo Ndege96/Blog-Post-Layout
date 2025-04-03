@@ -285,4 +285,7 @@ figcaption {
         width: 100%;
         margin-top: 10px;
     }
+    .back-to-top-btn{
+        width: 40px;
+    }
 }
