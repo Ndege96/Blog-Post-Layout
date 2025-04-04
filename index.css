@@ -295,6 +295,6 @@ figcaption {
         text-align: center;
     }
     .author-image{
-        
+        margin: 0 auto 10px;
     }
 }
