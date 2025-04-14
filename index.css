@@ -298,3 +298,6 @@ figcaption {
         margin: 0 auto 10px;
     }
 }
+img{
+    border-radius: 50%;
+}
