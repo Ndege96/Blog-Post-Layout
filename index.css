@@ -157,7 +157,7 @@ figcaption {
     margin: 0 10px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background 0.3s;
+    transition:  0.3s;
 }
 
 .share-btn:hover {
