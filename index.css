@@ -215,6 +215,8 @@ figcaption {
 .comments {
     max-width: 800px;
     margin: 40px auto;
+    width: 100%;
+    padding: 10px;
 }
 
 .comment-form textarea {
@@ -296,7 +298,6 @@ figcaption {
     }
     .author-image{
         margin: 0 auto 10px;
-        font-size: 1rem;
-    transition:  0.3s;
+        
     }
 }
