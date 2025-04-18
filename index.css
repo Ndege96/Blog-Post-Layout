@@ -301,3 +301,9 @@ figcaption {
         
     }
 }
+/* image sizing */
+img{
+    width: 97%;
+    height: 35%;
+    border-radius: 1.5rem;
+}
