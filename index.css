@@ -300,10 +300,9 @@ figcaption {
 /* image sizing */
 img{
     width: 97%;
-    height: 35%;
+    height: 60%;
     border-radius: 1.5rem;
 }
-article{
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+.submit{
+
 }
