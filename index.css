@@ -276,6 +276,7 @@ figcaption {
         width: 100%;
     }
     .nav-links li{
+    .nav-links li{
         margin: 0;
     }
     .read-more-btn,
@@ -288,8 +289,6 @@ figcaption {
         height: 40px;
         font-size: 1.2rem;
     }
-    .author-box{
-        flex-direction: column;
     .author-box{
         flex-direction: column;
         text-align: center;
