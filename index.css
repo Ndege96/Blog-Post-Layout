@@ -291,6 +291,8 @@ figcaption {
     .author-box{
         flex-direction: column;
         text-align: center;
+        flex-direction: column;
+        text-align: center;
     }
     .author-image{
         margin: 0 auto 10px;
